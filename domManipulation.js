@@ -11,24 +11,23 @@ let image = document.querySelector('.image');
 
 
 // CODE ALONG
-// 1. An event listener is provided for the `contentButton`
-// 2. When clicked, it should change the content of:
-//   - The `name` header.
+contentButton.addEventListener("click", function() {myName.innerHTML = 'burgers'});
+
 
 // -- RETURN TO LESSON --
 
-// CODE SOLO
+
 //   - The `hobby` paragraph.
 //   - The `location` paragraph.
 
-contentButton.addEventListener('click', function() {
+contentButton.addEventListener('click', function() {myHobby.innerHTML = "boolin" });
 
 
 
 
 
 
-});
+
 
 // 3. Add an event listener to the `image1Button`
 // 4. When clicked, it should change the source of `image` to another image URL.
@@ -42,4 +41,4 @@ contentButton.addEventListener('click', function() {
 
 
 // BONUS
-// 7. Try using different event types for your buttons.
+contentButton.addEventListener("keydown", function() {myLocation.innerHTML = "your mom"});
